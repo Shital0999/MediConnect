@@ -1,0 +1,96 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* PAGE BACKGROUND */
+html, body {
+    height: 100%;
+    background-color: #f4f6f8;
+
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* LOGIN / REGISTER CARD */
+.auth-card {
+    width: 380px;
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* TITLE */
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e6cff;
+    font-size: 28px;
+}
+
+/* LABELS */
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1e6cff;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1e6cff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #1554cc;
+}
+
+/* FOOTER */
+.auth-footer {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.auth-footer a {
+    color: #1e6cff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-footer a:hover {
+    text-decoration: underline;
+}
