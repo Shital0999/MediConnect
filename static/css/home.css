@@ -1,0 +1,274 @@
+body{
+  background-color: rgba(199, 200, 202, 0.353);
+}
+header {
+  top: 0px;
+  /* position: fixed; */
+  background-color: #1F2933;
+  color: rgb(255, 255, 255);
+  height: 95px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.left h1{
+  color: rgb(229, 223, 223);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px;
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: 600;
+  
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-size: 19px;
+  color: rgb(229, 223, 223);
+}
+
+.menu ul li a:hover{
+  font-size: 21px;
+  text-decoration: underline;
+}
+
+.logo_img {
+  /* width: px; */
+  width: 40;
+  height: 65px;
+  border-radius: 100px;
+  /* padding: 2px; */
+}
+
+.login-btn {
+  width: 70px;
+  height: 31px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8f8e8ec2;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reg-btn {
+  width: 78px;
+  height: 31px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8f8e8ec2;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-btn:hover{
+  background-color: #4b4a4ac2 ;
+   width: 75px;
+  height: 34px;
+}
+
+
+.reg-btn:hover{
+  background-color: #4b4a4ac2 ;
+  width: 80px;
+  height: 34px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.section {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  top: -18px;
+  opacity: 0.8;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.background {
+  object-fit: cover;
+  height: 70vh;
+  width: 100vw;
+}
+
+.cover_page {
+  position: absolute;
+  height: 70vh;
+  width: 100vw;
+  /* background-color: rgb(106, 105, 105); */
+  opacity: 0.53;
+  top: 0;
+}
+
+.cover_Content{
+  position: absolute;
+  top: 80px;
+  height: 70vh;
+  width: 100vw;
+}
+
+.tagline {
+  color: #ffffff;
+  text-align: center;
+}
+
+.home_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.home_buttons button{
+  width: 115px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(22, 44, 77);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.home_buttons button:hover{
+  background-color: rgb(50, 89, 148);
+  width: 120px;
+  height: 45px;
+  border: 2px solid rgb(25, 45, 75);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  background-color: #eeebeb;
+  padding: 30px;
+}
+
+.cards {
+  background-color: #e6e5e0;
+  height: 340px;;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+
+}
+
+.cards img {
+  width: 240px;
+  height: 220px;
+  /* object-fit: contain; */
+  border: none;
+  border-radius: 15px;
+}
+
+.description{
+  text-align: center;
+  color: rgb(80, 78, 78);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.footer {
+  height: 200px;
+  background-color: #1F2933;
+  /* background-color: #e0e1e2; */
+  color: #faf8f8;
+  padding: 50px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.footer-column h3,
+.footer-column h4 {
+  margin-bottom: 15px;
+  color: #9cd1f4;
+}
+
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fcf9f9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1.5px solid rgba(243, 243, 243, 0.2);
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+
+/* .primary {
+    background-color: #e53935;
+}
+
+.secondary {
+    background-color: #1976d2;
+}
+
+.donor {
+    background-color: #388e3c;
+} */
